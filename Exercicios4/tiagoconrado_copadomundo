@@ -1,0 +1,2 @@
+for ano in range(1966, 2023, 4):
+    print(ano)
