@@ -1,0 +1,10 @@
+etanol = float(input("Informe o preço do etanol: "))
+gasolina = float(input("Informe o preço da gasolina: "))
+
+percentual = (etanol / gasolina) * 100
+
+if (percentual < 70):
+    print("O combustível mais eficiente e o Étanol, pois e {} %".format(round(percentual, 2)))
+
+else:
+    print("O combustível mais eficiente e a Gasolina, pois e {} %".format(round(percentual, 2)))
